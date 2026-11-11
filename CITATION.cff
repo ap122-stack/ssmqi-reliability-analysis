@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "SSMQI reliability study: preregistered analysis code"
+abstract: "Frozen MATLAB analysis code, tests and documentation for a preregistered inter- and intra-rater reliability study of supraspinatus outlining and echo intensity on 2D shoulder ultrasound."
+version: 1.0.0
+date-released: 2026-11-07
+repository-code: "https://github.com/ap122-stack/ssmqi-reliability-analysis"
+url: "https://osf.io/gfd6t"
+keywords:
+  - ultrasound
+  - supraspinatus
+  - reliability
+  - echo intensity
+authors:
+  - family-names: Pappu
+    given-names: Anirudh
+    affiliation: "The University of Texas at Dallas"
+  - family-names: Smith
+    given-names: Molly Litten
+    affiliation: "University of Texas Southwestern Medical Center"
+  - family-names: Floresca
+    given-names: Ryan
+    affiliation: "University of Texas Southwestern Medical Center"
+  - family-names: Giambini
+    given-names: Hugo
+    affiliation: "The University of Texas at San Antonio"
+  - family-names: Tzen
+    given-names: Yi-Ting
+    affiliation: "University of Texas Southwestern Medical Center"

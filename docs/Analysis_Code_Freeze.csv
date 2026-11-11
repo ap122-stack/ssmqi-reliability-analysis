@@ -1,0 +1,8 @@
+File,SHA256,Frozen_At,MATLAB_Version,Registration
+ssmqi_stats_core.m,1f6c82883b81761da395991fac38f7689cbd55d8c20e45b2d688c810ff0b99ab,2026-11-06 18:48:35,26.1.0.3251617 (R2026a) Update 2,https://osf.io/gfd6t
+ssmqi_registered_analysis.m,6fdb60e69017f25e32a9380cb793d17489327eb19f8a5820a2f7a22f3b7b30b8,2026-11-06 18:48:35,26.1.0.3251617 (R2026a) Update 2,https://osf.io/gfd6t
+ssmqi_load_registered_measurements.m,3b7ad125b645465e329ccdba6e4f45363b5220c6a293a66dbbb786912a36fdbb,2026-11-06 18:48:35,26.1.0.3251617 (R2026a) Update 2,https://osf.io/gfd6t
+run_ssmqi_registered_analysis.m,491c7acd939b2c2c0f3a645c9442609896e385c126f37de77ac9a11a76669b71,2026-11-06 18:48:35,26.1.0.3251617 (R2026a) Update 2,https://osf.io/gfd6t
+ssmqi_formal_artifact_mask.m,7671a1d1326052468b327e5d5b937762aae61f3c1a1f12eecb70de28f9d49fd5,2026-11-06 18:48:35,26.1.0.3251617 (R2026a) Update 2,https://osf.io/gfd6t
+ssmqi_read_csv_strings.m,43f9ab422c74015ceecd4b3b646f4eb5ffa6b0f0d24d8b62c1287432bc8080b2,2026-11-06 18:48:35,26.1.0.3251617 (R2026a) Update 2,https://osf.io/gfd6t
+ssmqi_sha256_file.m,bc73e7a5c426115a7971d7be72c86008f602be1afc8fc3a86a46bd06d1eb2150,2026-11-06 18:48:35,26.1.0.3251617 (R2026a) Update 2,https://osf.io/gfd6t

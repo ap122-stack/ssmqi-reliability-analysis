@@ -1,0 +1,11 @@
+Comparison,Plane,Usable_pairs,Matched_images,Pct_pairs_Dice_ge_0.70,Pct_CI_low,Pct_CI_high,Mean_Dice_usable,Worst_case_mean_Dice
+"Intra-rater, Rater 1 (S1 vs S2)",Long axis,56,57,92.9,85.0,98.4,0.836,0.822
+"Intra-rater, Rater 1 (S1 vs S2)",Short axis,23,23,95.7,87.5,100.0,0.847,0.847
+"Intra-rater, Rater 2 (S1 vs S2)",Long axis,32,57,93.8,85.7,100.0,0.846,0.475
+"Intra-rater, Rater 2 (S1 vs S2)",Short axis,15,23,100.0,100.0,100.0,0.889,0.58
+"Inter-rater, primary (R1 S1 vs R2 S1)",Long axis,47,57,80.9,68.3,91.2,0.784,0.646
+"Inter-rater, primary (R1 S1 vs R2 S1)",Short axis,21,23,95.2,87.5,100.0,0.836,0.764
+"Inter-rater, secondary (R1 S2 vs R2 S2)",Long axis,33,57,90.9,81.8,100.0,0.842,0.488
+"Inter-rater, secondary (R1 S2 vs R2 S2)",Short axis,15,23,100.0,100.0,100.0,0.841,0.549
+Sensitivity (R1 S2 vs R2 S1),Long axis,46,57,87.0,75.8,95.5,0.811,0.654
+Sensitivity (R1 S2 vs R2 S1),Short axis,21,23,95.2,85.7,100.0,0.831,0.759
