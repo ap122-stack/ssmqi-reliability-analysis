@@ -1,0 +1,4 @@
+Plane,N_participants,Spearman_rho,CI_low,CI_high
+Long axis,13,0.423,-0.225,0.882
+Short axis,10,0.442,-0.3,0.87
+Both planes,16,0.494,-0.089,0.887
