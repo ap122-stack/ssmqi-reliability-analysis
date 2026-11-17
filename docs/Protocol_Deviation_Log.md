@@ -10,7 +10,7 @@ Registered plan: https://osf.io/gfd6t (October 24, 2026). Entries are in date or
 | 2026-10-17 | The September session was moved to `Admin_Private\Archive_Superseded` and the October 7 session was renamed Session 1. | Study team decision; files moved and renamed only, no record contents edited. Provenance in `Admin_Private\Relabel_Provenance_2026-10-17.md`. Internal case IDs and logs still say "Session 2". |
 | 2026-10-17 | Packet preparation changed to write de-identified copies (headers stripped, new identifiers, header banner and label region removed; calibration and geometry verified identical). | Blinding audit found original headers and burned-in labels in the packets. Applied to every packet prepared afterward. Rater 1 Session 1 (Oct 7) was traced on the earlier unaltered copies. |
 | 2026-10-17 | A never-traced Rater 2 Session 1 packet made on the old method was archived and rebuilt with the new method. | No tracing existed in it. |
-| 2026-10-17 | Version control in the project folder found corrupted by OneDrive sync; backup copy made outside OneDrive. | Backup at `C:\Users\Owner\SSMQI_Backups`. |
+| 2026-10-17 | Version control in the project folder found corrupted by OneDrive sync; backup copy made outside OneDrive. | Backup at a folder outside OneDrive. |
 | 2026-10-21 | Rater 1 Session 2 (79 accepted, 1 untraceable) and Rater 2 Session 1 (68 accepted, 12 untraceable) collected. | Rater 1 washout from her Session 1 was 14 days. |
 | 2026-10-24 | Preregistration submitted after three of four sessions were collected. | Foreknowledge declared: process descriptives and two example overlays had been viewed; no agreement statistic computed. |
 | 2026-10-24 | After registration and before any agreement statistic: median traced area by image plane inspected as a calibration check; several example outlines reviewed for plausibility. | Disclosed in the manuscript. Traced area is not an outcome (registered). |
@@ -30,3 +30,10 @@ Registered plan: https://osf.io/gfd6t (October 24, 2026). Entries are in date or
 | 2026-11-08 | Exploratory comparison of Rater 2's untraceable images across sessions (`Scripts\exploratory_rater2_untraceable_comparison.py`; counts only). Rater 2 stated the reason: image contrast too high to trace with full confidence. | Of the 31 untraceable in Session 2, 21 had been traced in Session 1 and 10 were untraceable in both; Rater 1 traced all 31. Added to Results and Limitations as exploratory and as the rater's own account. |
 
 | 2026-11-12 | Post-final-run exploratory analyses added: echo intensity versus supraspinatus MRI mDixon fat fraction (Spearman, participant bootstrap) and cohort descriptives from the parent-study clinical sheet. Not preregistered; labeled exploratory in the manuscripts. Participant-level clinical data stay in Admin_Private and are not in the repository. | Reported as exploratory only. |
+
+- 2026-11-16: Five verification re-runs of the frozen registered analysis (same code hashes, seed 20261024, 2000 bootstraps) were run into a scratch folder, outside the registered output folder, run log and lock file. All six frozen-pipeline output files (Tables 2-6 and pair-level metrics) were byte-identical to FINAL_20261106_190031 in every run. No change to registered results.
+
+- 2026-11-16: JUM manuscript prose edited for plainer wording; added the exploratory untraceable-share-versus-fat result (rho 0.73, n = 16) and the 45-test texture search (short-axis GLCM homogeneity and contrast, hypothesis only) to Methods, Results, Discussion, and Limitations; fixed a body paragraph that carried a heading style. No registered result changed.
+
+- 2026-11-16: The same prose edits, exploratory additions, and AI-statement sentence were mirrored into the PLOS ONE version (bracket citations and "Fig" kept per PLOS style).
+
