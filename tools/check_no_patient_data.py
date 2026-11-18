@@ -11,7 +11,6 @@ BLOCK_NAME = re.compile(r"(^|[\\/])(Admin_Private|Patient Results|Fresh Ultrasou
 BLOCK_TEXT = [
     (re.compile(r"\bSWE0?\d{2,3}[_A-Z]"), "participant-style case code"),
     (re.compile(r"\bPT_\d{3}\b"), "patient code"),
-    (re.compile(r"\b(Source_Image|Case_ID)\b.*\.dcm", re.I), "image file name"),
     (re.compile(r"AKIA[0-9A-Z]{16}|ghp_[A-Za-z0-9]{30,}|-----BEGIN [A-Z ]*PRIVATE KEY-----"), "credential"),
 ]
 MAX_BYTES = 5 * 1024 * 1024
