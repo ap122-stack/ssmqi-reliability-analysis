@@ -1,0 +1,14 @@
+*.dcm
+*.mat
+*.dpapi
+*.tif
+*.tiff
+*.png
+*.jpg
+*.nvp
+*.qdpx
+Admin_Private/
+*Randomization_Key*
+Participant_Clinical*
+.env*
+*secrets*

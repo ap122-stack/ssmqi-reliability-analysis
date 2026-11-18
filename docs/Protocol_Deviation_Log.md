@@ -35,5 +35,4 @@ Registered plan: https://osf.io/gfd6t (October 24, 2026). Entries are in date or
 
 - 2026-11-16: JUM manuscript prose edited for plainer wording; added the exploratory untraceable-share-versus-fat result (rho 0.73, n = 16) and the 45-test texture search (short-axis GLCM homogeneity and contrast, hypothesis only) to Methods, Results, Discussion, and Limitations; fixed a body paragraph that carried a heading style. No registered result changed.
 
-- 2026-11-16: The same prose edits, exploratory additions, and AI-statement sentence were mirrored into the PLOS ONE version (bracket citations and "Fig" kept per PLOS style).
 
