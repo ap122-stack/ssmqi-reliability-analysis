@@ -10,7 +10,7 @@ Registered plan: https://osf.io/gfd6t (October 24, 2026). Entries are in date or
 | 2026-10-17 | The September session was moved to `Admin_Private\Archive_Superseded` and the October 7 session was renamed Session 1. | Study team decision; files moved and renamed only, no record contents edited. Provenance in `Admin_Private\Relabel_Provenance_2026-10-17.md`. Internal case IDs and logs still say "Session 2". |
 | 2026-10-17 | Packet preparation changed to write de-identified copies (headers stripped, new identifiers, header banner and label region removed; calibration and geometry verified identical). | Blinding audit found original headers and burned-in labels in the packets. Applied to every packet prepared afterward. Rater 1 Session 1 (Oct 7) was traced on the earlier unaltered copies. |
 | 2026-10-17 | A never-traced Rater 2 Session 1 packet made on the old method was archived and rebuilt with the new method. | No tracing existed in it. |
-| 2026-10-17 | Version control in the project folder found corrupted by OneDrive sync; backup copy made outside OneDrive. | Backup at a folder outside OneDrive. |
+| 2026-10-17 | Version control in the project folder found corrupted by OneDrive sync; backup copy made outside OneDrive. | Backup at `C:\Users\Owner\SSMQI_Backups`. |
 | 2026-10-21 | Rater 1 Session 2 (79 accepted, 1 untraceable) and Rater 2 Session 1 (68 accepted, 12 untraceable) collected. | Rater 1 washout from her Session 1 was 14 days. |
 | 2026-10-24 | Preregistration submitted after three of four sessions were collected. | Foreknowledge declared: process descriptives and two example overlays had been viewed; no agreement statistic computed. |
 | 2026-10-24 | After registration and before any agreement statistic: median traced area by image plane inspected as a calibration check; several example outlines reviewed for plausibility. | Disclosed in the manuscript. Traced area is not an outcome (registered). |
@@ -33,6 +33,17 @@ Registered plan: https://osf.io/gfd6t (October 24, 2026). Entries are in date or
 
 - 2026-11-16: Five verification re-runs of the frozen registered analysis (same code hashes, seed 20261024, 2000 bootstraps) were run into a scratch folder, outside the registered output folder, run log and lock file. All six frozen-pipeline output files (Tables 2-6 and pair-level metrics) were byte-identical to FINAL_20261106_190031 in every run. No change to registered results.
 
-- 2026-11-16: JUM manuscript prose edited for plainer wording; added the exploratory untraceable-share-versus-fat result (rho 0.73, n = 16) and the 45-test texture search (short-axis GLCM homogeneity and contrast, hypothesis only) to Methods, Results, Discussion, and Limitations; fixed a body paragraph that carried a heading style. No registered result changed.
+- 2026-11-16: JUM manuscript prose edited for plainer wording; added the exploratory untraceable-share-versus-fat result (rho 0.73, n = 16) and the 45-test texture search (short-axis GLCM homogeneity and contrast, hypothesis only) to Methods, Results, Discussion, and Limitations; fixed a body paragraph that carried a heading style. No registered result changed. Backup: C:\Users\Owner\SSMQI_Backups\pre_rewrite_2026-11-16.
+
+- 2026-11-16: The same prose edits, exploratory additions, and AI-statement sentence were mirrored into the PLOS ONE version (bracket citations and "Fig" kept per PLOS style). Pre-edit copies of both: C:\Users\Owner\SSMQI_Backups\pre_rewrite_2026-11-16.
 
 
+- 2026-11-17: JUM manuscript: AI statement now names the tool (Claude, Anthropic), and one AI-disclosure sentence was added to the Methods, as Wiley's AI policy asks. No analysis or result changed.
+
+- 2026-11-17: 17 retired pilot-era scripts (dashboard, deck, report and tracker builders, an old MVI backup) were archived to the private archive repository and moved to the Recycle Bin. None is part of the registered analysis; the seven frozen code files still match their hashes.
+
+- 2026-11-19: Post hoc within-rater and between-rater ICC(A,1) added (`Scripts\exploratory_icc_within_between.py`; same mixed model as the registered pooled ICC, fitted to subsets; participant-cluster bootstrap with 300 resamples; output `ICC_within_between_posthoc.csv`). Five repeat runs with other seeds (100 resamples) gave identical point estimates; only the intervals varied. Not preregistered; reported as exploratory in Results. No registered table or code changed.
+
+- 2026-11-20: JUM manuscript (rewritten by the first and last authors, kept in Google Docs) edited: post hoc ICC values moved from Methods to Results; MDC95 rounding made consistent (12.1 and 30.6 gray levels); one sentence added to Interpretation stating that the primary inter-rater comparison uses Rater 2 Session 1 only; IRB protocol STU-2020-1388 (approved, consent waived) and the Zenodo DOI added; corresponding-author email changed to the UT Southwestern address. Figure 2 redrawn from `Pair_Level_Metrics.csv` (`Scripts\make_figure2_bland_altman.py`); statistics unchanged (long axis bias -0.78%, limits -22.8 to 21.3; short axis +0.18%, -10.3 to 10.7); only the bias label position and panel titles changed. No result changed.
+
+- 2026-11-20: Code repository made public and release v1.0.0 archived on Zenodo (DOI 10.5281/zenodo.24408062) after Dr. Tzen approved the manuscript. The private archive repository stays private.
