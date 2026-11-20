@@ -1,0 +1,11 @@
+Plane,Subset,Fixed_Effect,Tracings,Participants,ICC_A1,CI_Low,CI_High,Var_Participant,Var_Image,Var_Fixed,Var_Residual
+Long axis,Pooled (registered model),Rater,194,15,0.804,0.613,0.911,304.0,52.4,0.1,87.0
+Long axis,Within Rater 1 (S1 vs S2),Session,113,15,0.768,0.479,0.933,294.4,57.3,13.0,93.5
+Long axis,Within Rater 2 (S1 vs S2),Session,81,14,0.929,0.828,0.968,295.6,106.6,0.0,30.8
+Long axis,"Between raters, Session 1",Rater,104,15,0.742,0.463,0.969,297.7,79.7,0.5,130.5
+Long axis,"Between raters, Session 2",Rater,90,15,0.919,0.819,0.97,309.2,27.6,2.4,27.1
+Short axis,Pooled (registered model),Rater,82,11,0.955,0.815,0.981,375.0,22.5,0.0,18.7
+Short axis,Within Rater 1 (S1 vs S2),Session,46,11,0.932,0.685,0.98,380.0,15.4,0.1,28.6
+Short axis,Within Rater 2 (S1 vs S2),Session,36,10,0.978,0.819,0.99,264.2,28.8,0.6,5.9
+Short axis,"Between raters, Session 1",Rater,44,11,0.948,0.675,0.984,343.2,13.9,0.0,19.7
+Short axis,"Between raters, Session 2",Rater,38,11,0.966,0.796,0.99,401.9,34.9,0.4,14.9
